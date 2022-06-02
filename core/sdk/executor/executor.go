@@ -10,7 +10,7 @@ import (
 
 	hmac "github.com/alexellis/hmac"
 	xid "github.com/rs/xid"
-	sdk "github.com/s8sg/goflow/core/sdk"
+	sdk "github.com/tmsong/goflow/core/sdk"
 )
 
 // RawRequest a raw request for the flow
@@ -134,7 +134,7 @@ func PartialRequest(partialState *PartialState) ExecutionStateOption {
 }
 
 const (
-	// signature of SHA265 equivalent of "github.com/s8sg/faas-flow"
+	// signature of SHA265 equivalent of "github.com/tmsong/faas-flow"
 	defaultHmacKey = "71F1D3011F8E6160813B4997BA29856744375A7F26D427D491E1CCABD4627E7C"
 	// max retry count to update counter
 	counterUpdateRetryCount = 10

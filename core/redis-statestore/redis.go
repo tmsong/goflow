@@ -3,7 +3,7 @@ package RedisStateStore
 import (
 	"fmt"
 
-	faasflow "github.com/s8sg/goflow/core/sdk"
+	faasflow "github.com/tmsong/goflow/core/sdk"
 	"github.com/go-redis/redis"
 )
 

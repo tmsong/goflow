@@ -1,8 +1,8 @@
 package runtime
 
 import (
-	redisDataStore "github.com/s8sg/goflow/core/redis-datastore"
-	"github.com/s8sg/goflow/core/sdk"
+	redisDataStore "github.com/tmsong/goflow/core/redis-datastore"
+	"github.com/tmsong/goflow/core/sdk"
 )
 
 func initDataStore(redisURI string) (dataStore sdk.DataStore, err error) {

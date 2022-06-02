@@ -29,8 +29,8 @@ package main
 
 import (
 	"fmt"
-	goflow "github.com/s8sg/goflow/v1"
-	flow "github.com/s8sg/goflow/flow/v1"
+	goflow "github.com/tmsong/goflow/v1"
+	flow "github.com/tmsong/goflow/flow/v1"
 )
 
 // Workload function
